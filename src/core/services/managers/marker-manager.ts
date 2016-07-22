@@ -53,7 +53,6 @@ export class MarkerManager {
     return this._markers.get(marker).then((m: Marker) => m.setVisible(marker.visible));
   }
 
-
   addMarker(marker: SebmGoogleMapMarker) {
     const markerPromise = this._mapsWrapper.createMarker({
       position: {lat: marker.latitude, lng: marker.longitude},

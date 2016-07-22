@@ -37,8 +37,7 @@ let markerId = 0;
 @Directive({
   selector: 'sebm-google-map-marker',
   inputs: [
-    'latitude', 'longitude', 'title', 'label', 'draggable: markerDraggable', 'iconUrl',
-    ,'visible', 'openInfoWindow', 'fitBounds'
+    'latitude', 'longitude', 'title', 'label', 'draggable: markerDraggable', 'iconUrl', 'visible',  'openInfoWindow', 'fitBounds'
   ],
   outputs: ['markerClick', 'dragEnd']
 })
